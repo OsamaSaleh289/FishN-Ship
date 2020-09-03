@@ -1,0 +1,43 @@
+{
+  "name": "FishNShip",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "postinstall": "node_modules/.bin/rn-nodeify --install crypto,fs,https --hack"
+  },
+  "dependencies": {
+    "@remobile/react-native-file": "^1.0.4",
+    "base64-img": "^1.0.4",
+    "cheerio": "^1.0.0-rc.3",
+    "image-to-base64": "^2.1.1",
+    "native-base": "^2.13.14",
+    "pandas": "0.0.3",
+    "puppeteer": "^5.2.1",
+    "react": "16.13.1",
+    "react-native": "^0.63.2",
+    "react-native-camera": "^3.37.0",
+    "react-native-fs": "^2.16.6",
+    "react-native-image-base64": "^0.1.4",
+    "react-native-star-rating": "^1.1.0",
+    "react-native-vector-icons": "^7.0.0",
+    "rn-nodeify": "^10.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/runtime": "^7.11.2",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.3.0",
+    "eslint": "^7.7.0",
+    "jest": "^26.4.0",
+    "metro-react-native-babel-preset": "^0.62.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
